@@ -1,0 +1,145 @@
+/*!
+Theme Name: cleaningCompany
+
+Author: Aminul Islam
+
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: https://profile.freepik.com/license/free
+Text Domain: cleaningcompany
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+
+*/
+
+.author img {
+	border-radius: 50px;
+}
+.page-numbers {
+	border: 1px solid #8c8888;
+	padding: 10px 14px;
+	border-radius: 50px;
+	color: #2b98f0;
+}
+.page-numbers.current {
+	border: 1px solid #2b98f0;
+    background-color: #2b98f0;
+	color: #fff;
+	transition: .4s;
+}
+.page-numbers:hover {
+	border: 1px solid #2b98f0;
+    background-color: #2b98f0;
+	color: #fff;
+}
+/* comment form css */
+.comment-list li .comment-body .reply {
+	padding: 0px 0px; 
+    background: transparent !important;
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 12px !important;
+	letter-spacing: .1em;
+	font-weight: 600 !important;
+	border-radius: 4px;
+}
+.comment-list li .vcard {
+	width: 100% !important;
+	float: left;
+	margin-bottom: 12px;
+}
+
+p label {
+	display: none;
+}
+.comment-form-cookies-consent {
+    display: none;
+  }
+#submit {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #2b98f0;
+    border: 2px solid #2b98f0;
+    padding: 8px 16px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    transition: all 900ms ease;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    z-index: 1;
+}
+
+#submit:hover {
+    color: #2b98f0;
+    background: transparent;
+    border: 2px solid #2b98f0;
+    transition: all 900ms ease;
+}
+
+.comment-form-author , .comment-form-email, .comment-form-url{
+    width: 100%;
+   
+   
+  }
+
+  button, [type="button"], [type="reset"], [type="submit"] {
+      -webkit-appearance: button;
+	display: flex;
+	background: none;
+	border: none;
+	outline: none !important ;
+    cursor: pointer;
+}
+button:focus, button:visited{
+    outline: none;
+    border: none;
+}
+.bg-light .fab, .bg-light .far {
+    font-weight: 400;
+    font-size: 56px;
+    transition: .4s;
+    color: #fff;
+}
+.bg-light .fab:hover{
+    color: #f3e53d;
+}
+
+.footer ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+.footer a {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 14px;
+
+}
+
+
+.about_testimonial.bg-light .ftco-bg-dark {
+    background: #fff !important;
+    padding: 20px 0;
+  }
+  .about_testimonial.bg-light .ftco-bg-dark h2, .about_testimonial.bg-light .ftco-bg-dark .subheading {
+    color: #333
+  }
+  .wpcf7 input[type="url"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"] {
+    direction: ltr;
+    margin-top: 19px;
+}
+.pagination{
+    display: block !important;
+}
+.sidebar-box :last-child {
+	margin-bottom: 0;
+	padding-left: 0 !important;
+}
